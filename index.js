@@ -38,7 +38,7 @@ cron.schedule('*/30 * * * *', () => {
 
       console.log("Terminal A: "+valueA + "% full, Terminal B: " +  valueB + "% full, Terminal C/D: " + valueCD + "% full");
       await browser.close(); //Close browser session.
-      insertData();
+      //insertData(); //Call the function to insert data into BigQuery Table, untested
   }
   
   //Inserting data into BigQuery - Untested due to issued with Cloud Functrion/ App Engine and Puppeteer, authentication issues.
