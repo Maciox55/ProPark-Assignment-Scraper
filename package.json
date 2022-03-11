@@ -1,0 +1,28 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Scraper Assignment, Not for any Commercial Purposes",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.11.0",
+    "cron": "^1.8.2",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maciox55/Scraper.git"
+  },
+  "author": "Maciej Bregisz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maciox55/Scraper/issues"
+  },
+  "homepage": "https://github.com/Maciox55/Scraper#readme"
+}
